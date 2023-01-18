@@ -1,0 +1,21 @@
+19-jan-2023
+This is the code for WhatsApp button in shopify themes under add to cart button and tested on some themes like shella the latest versions.
+
+
+<a href="https://api.whatsapp.com/send?phone=+9xxxxxxxxxx&text=Hi,
+%20I%20want%20to%20order%20this%20product:%20{{ product.title }}
+%20%20https%3A%2F%2F{{ shop_domain }}
+%2Fproducts%2F{{ product.handle }}">
+ <div class="order_whatsapp" style="margin-top: 5px; margin-bottom:20px;
+padding: 11px; text-align: center; background-color: #1EA651;height:
+44px;color:white;">
+ <img src="https://cdn.shopify.com/s/files/1/0073/2522/0979/files/
+whatsapp-icon.png?v=1615793565" width="25px" style="vertical-align:middle;">
+Order On <span style="font-weight: bold;">WhatsApp</span>
+ </div>
+ </a>
+ 
+ in the first line of this code you have to change your phone number..... 
+ And remember this is only order on WhatsApp button 
+ which is not customizable by customizer provided by Shopify so if you 
+ want to change anything I mean like text or color you have to work in theme code...
