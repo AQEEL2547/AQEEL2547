@@ -76,7 +76,7 @@ After pasting code save that respective section. Then go to “layout” and cli
 
 Then before </body> tag put this code 
 
-"{% section 'floating-whatsapp' %}"
+{% section 'floating-whatsapp' %}
 
 and then click on save that is it.
 
