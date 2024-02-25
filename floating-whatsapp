@@ -74,7 +74,7 @@ for sections and create a section with name of “floating-whatsapp” and repla
 
 After pasting code save that respective section. Then go to “layout” and click on “theme.liquid”
 
-Then before </body> tag put this code 
+Then before </head> tag put this code 
 
 {% section 'floating-whatsapp' %}
 
